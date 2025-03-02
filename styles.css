@@ -44,7 +44,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    animation: orbit 30s linear infinite;
+    animation: orbit 60s linear infinite;
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -62,6 +62,11 @@ body {
     position: relative;
     transform: translateY(-50px);
     cursor: url('assets/rocket-landing.cur'), auto;
+    transition: transform 0.3s ease;
+}
+
+.earth:hover {
+    transform: scale(1.5) translateY(-25px);
 }
 
 .label {
@@ -69,7 +74,7 @@ body {
     font-size: 10px;
     font-weight: bold;
     transform: rotate(-360deg);
-    animation: counterRotate 30s linear infinite;
+    animation: counterRotate 60s linear infinite;
 }
 
 @keyframes orbit {
