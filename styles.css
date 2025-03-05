@@ -35,7 +35,7 @@ body {
     align-items: center;
     justify-content: center;
     font-weight: bold;
-    cursor: url('assets/rocket-landing.cur'), auto;
+    cursor: url('assets/rocket.cur'), auto;
 }
 
 .earth-orbit {
