@@ -11,7 +11,6 @@ body {
     font-family: Arial, sans-serif;
 }
 
-
 .sun {
     width: 100px;
     height: 100px;
@@ -32,4 +31,15 @@ body {
     width: 46px;
     height: 46px;
     stroke: black;
+}
+
+.scroll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scoll img {
+    height: 100vh;
+    width: auto;
 }
