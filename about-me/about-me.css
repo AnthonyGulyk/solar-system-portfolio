@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: linear-gradient(#87CEEB 90%, #4CAF50 10%); /* More sky */
+    position: relative;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+
+.sun {
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(circle, #ffcc00, #ff6600);
+    position: absolute;
+    top: 20px;
+    right: 88%;
+    border-radius: 50%;
+    box-shadow: 0 0 40px rgba(255, 204, 0, 0.8);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    display: flex;
+}
+
+.arrow-icon {
+    width: 46px;
+    height: 46px;
+    stroke: black;
+}
