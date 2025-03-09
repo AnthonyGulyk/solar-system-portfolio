@@ -20,14 +20,14 @@ a {
 }
 
 .solar-system {
-    width: 400px;
-    height: 400px;
+    width: 20rem;
+    height: 20rem;
     position: relative;
 }
 
 .sun {
-    width: 200px;
-    height: 200px;
+    width: 12rem;
+    height: 12rem;
     background: radial-gradient(circle at center, #ffcc00, #ff6600);
     border-radius: 50%;
     box-shadow: 0 0 50px rgba(255, 204, 0, 0.8);
@@ -56,8 +56,8 @@ a {
 }
 
 .earth {
-    width: 80px;
-    height: 80px;
+    width: 5rem;
+    height: 5rem;
     background: radial-gradient(circle at center, #4da6ff, #003366);
     border-radius: 50%;
     display: flex;
@@ -96,8 +96,8 @@ a {
 }
 
 .mars {
-    width: 80px;
-    height: 80px;
+    width: 5rem;
+    height: 5rem;
     background: radial-gradient(circle at center, #ff4500, #dc143c);
     border-radius: 50%;
     display: flex;
