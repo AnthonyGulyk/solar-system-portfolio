@@ -40,6 +40,7 @@ a {
     justify-content: center;
     font-weight: bold;
     cursor: url('assets/rocket.cur'), auto;
+    z-index: 1;
 }
 
 .earth-orbit {
@@ -53,6 +54,7 @@ a {
     align-items: flex-start;
     justify-content: center;
     text-decoration: none;
+    z-index: 2;
 }
 
 .earth {
@@ -67,6 +69,7 @@ a {
     transform: translateY(-40px);
     cursor: url('assets/rocket-landing.cur'), auto;
     transition: transform 0.3s ease;
+    z-index: 2;
 }
 
 .earth:hover {
