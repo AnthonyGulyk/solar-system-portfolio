@@ -83,6 +83,7 @@ a {
     font-weight: bold;
     transform: rotate(-360deg);
     animation: counterRotate 60s linear infinite;
+    cursor: url('assets/rocket-landing.cur'), auto;
 }
 
 .mars-orbit {
@@ -112,7 +113,8 @@ a {
     transition: transform 0.3s ease;
 }
 
-.mars:hover {
+.mars:hover,
+.label-mars {
     transform: scale(1.5) translateY(-100.5px);
 }
 
@@ -122,6 +124,7 @@ a {
     font-weight: bold;
     transform: rotate(-360deg);
     animation: counterRotate 113s linear infinite;
+    cursor: url('assets/rocket-landing.cur'), auto;
 }
 
 @keyframes orbit {
