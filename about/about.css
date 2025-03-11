@@ -29,16 +29,17 @@ a {
 
 .text {
     color: #fbe122;
-    font-size: 4vh;
-    line-height: 1.5rem;
+    font-size: 6vw;
+    line-height: 1.2rem;
     font-weight: bold;
     text-align: justify;
     position: relative;
-    transform: rotateX(15deg);
+    transform: rotateX(12deg);
 }
 
 h1 {
     text-align: center;
+    white-space: nowrap;
 }
 
 p {
