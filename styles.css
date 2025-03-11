@@ -50,6 +50,7 @@ a {
     top: 0;
     left: 0;
     animation: orbit 60s linear infinite;
+    animation-delay: -28s;
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -81,6 +82,7 @@ a {
     font-weight: bold;
     transform: rotate(-360deg);
     animation: counterRotate 60s linear infinite;
+    animation-delay: -28s;
     cursor: url('assets/rocket-landing.cur'), auto;
 }
 
