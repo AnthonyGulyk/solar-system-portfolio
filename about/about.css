@@ -1,22 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+
 body {
-    margin: 0;
-    padding: 0;
+    background: black;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
     height: 100vh;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    background: linear-gradient(#87CEEB 90%, #4CAF50 10%); /* More sky */
+    align-items: center;
+    justify-content: center;
+    margin: 50% 0 0 0;
     position: relative;
-    overflow: hidden;
-    font-family: Arial, sans-serif;
+}
+
+a {
+    color: #fbe122;
+    text-decoration: none;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    width: 80%;
+    margin: 0 auto;
+    perspective: 30rem;
+}
+
+.text {
+    color: #fbe122;
+    font-size: 4vh;
+    line-height: 1.5rem;
+    font-weight: bold;
+    text-align: justify;
+    position: relative;
+    transform: rotateX(20deg);
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: left;
 }
 
 .sun {
-    width: 100px;
-    height: 100px;
+    width: 7rem;
+    height: 7rem;
     background: radial-gradient(circle, #ffcc00, #ff6600);
     position: absolute;
-    top: 20px;
+    top: 2rem;
     right: 88%;
     border-radius: 50%;
     box-shadow: 0 0 40px rgba(255, 204, 0, 0.8);
@@ -32,54 +67,3 @@ body {
     height: 3.5rem;
     stroke: black;
 }
-
-.scroll {
-    position: relative;
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-}
-
-.scroll img {
-    height: 100%;
-    width: auto;
-    object-fit: cover;
-    max-width: 100%;
-    max-height: 100%;
-}
-
-.text-container {
-    position: absolute;
-    z-index: 1;
-    width: 53vmin;
-    height: 60vmin;
-    top: 46%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    overflow: hidden;
-    box-sizing: border-box;
-    border-radius: 10px;
-    font-size: 2vw;
-    font-family: "Times New Roman", sans-serif;
-    font-weight: bold;
-}
-
-.overlay-text h1 {
-    margin: 0;
-    padding: 0;
-    font-size: 1em;
-    line-height: 2.2;
-    overflow-wrap: break-word;
-}
-
-.overlay-text p {
-    margin: 0;
-    padding: 0;
-    font-size: 0.7em;
-    line-height: 1.2;
-    overflow-wrap: break-word;
-}
-
