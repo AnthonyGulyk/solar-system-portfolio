@@ -164,7 +164,6 @@ footer {
     left: 0;
     animation: orbit 175s linear infinite;
     animation-delay: -50s;
-    /* Staggered start */
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -186,7 +185,7 @@ footer {
 }
 
 .saturn:hover {
-    transform: scale(1.5) translateY(-18rem);
+    transform: scale(1.5) translateY(-16.5rem);
 }
 
 .saturn::before {
