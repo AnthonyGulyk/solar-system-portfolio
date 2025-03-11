@@ -20,9 +20,9 @@ a {
 }
 
 .solar-system {
-    width: 20rem;
-    height: 20rem;
-    position: relative;
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
 }
 
 .sun {
@@ -54,7 +54,6 @@ a {
     align-items: flex-start;
     justify-content: center;
     text-decoration: none;
-    pointer-events: auto;
 }
 
 .earth {
@@ -66,13 +65,13 @@ a {
     align-items: center;
     justify-content: center;
     position: absolute;
-    transform: translateY(-40px);
+    transform: translateY(-11rem);
     cursor: url('assets/rocket-landing.cur'), auto;
     transition: transform 0.3s ease;
 }
 
 .earth:hover {
-    transform: scale(1.5) translateY(-30px);
+    transform: scale(1.5) translateY(-7.5rem);
     transform-origin: center;
 }
 
@@ -106,15 +105,15 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
-    transform: translateY(-150px);
+    position: absolute;
+    transform: translateY(-18rem);
     cursor: url('assets/rocket-landing.cur'), auto;
     transition: transform 0.3s ease;
 }
 
 .mars:hover,
 .label-mars {
-    transform: scale(1.5) translateY(-100.5px);
+    transform: scale(1.5) translateY(-12rem);
 }
 
 .label-mars {
