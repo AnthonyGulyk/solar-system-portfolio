@@ -50,8 +50,12 @@ h1 {
         2px 2px 0 yellow;
 }
 
+h2 {
+    text-align: center;
+}
+
 p {
-    text-align: left;
+    text-align: justify;
 }
 
 .sun {
