@@ -93,6 +93,7 @@ a {
     top: 0;
     left: 0;
     animation: orbit 113s linear infinite;
+    animation-delay: -100s;
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -124,6 +125,7 @@ a {
     font-weight: bold;
     transform: rotate(-360deg);
     animation: counterRotate 113s linear infinite;
+    animation-delay: -100s;
     cursor: url('assets/rocket-landing.cur'), auto;
 }
 
@@ -154,7 +156,7 @@ a {
     top: 0;
     left: 0;
     animation: orbit 175s linear infinite;
-    animation-delay: -50s;
+    animation-delay: -25s;
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -211,6 +213,6 @@ a {
     font-weight: bold;
     transform: rotate(-360deg);
     animation: counterRotate 175s linear infinite;
-    animation-delay: -50s;
+    animation-delay: -25s;
     cursor: url('assets/rocket-landing.cur'), auto;
 }
