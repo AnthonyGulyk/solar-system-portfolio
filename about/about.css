@@ -2,7 +2,6 @@
 
 body {
     background: black;
-    overflow: hidden;
     font-family: 'Roboto', sans-serif;
     height: 100vh;
     display: flex;
@@ -29,17 +28,26 @@ a {
 
 .text {
     color: #fbe122;
-    font-size: 6vw;
-    line-height: 1.2rem;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
     font-weight: bold;
     text-align: justify;
     position: relative;
-    transform: rotateX(12deg);
+    transform: rotateX(8deg);
 }
 
 h1 {
-    text-align: center;
+    font-size: 5rem;
+    font-weight: bold;
     white-space: nowrap;
+    text-transform: uppercase;
+    text-align: center;
+    color: black; /* Black inside */
+    text-shadow: 
+        -2px -2px 0 yellow, 
+        2px -2px 0 yellow, 
+        -2px 2px 0 yellow, 
+        2px 2px 0 yellow;
 }
 
 p {
@@ -52,9 +60,9 @@ p {
     background: radial-gradient(circle, #ffcc00, #ff6600);
     position: absolute;
     top: 2rem;
-    right: 88%;
+    right: 85vw;
     border-radius: 50%;
-    box-shadow: 0 0 40px rgba(255, 204, 0, 0.8);
+    box-shadow: 0 0 3rem rgba(255, 204, 0, 0.8);
     text-align: center;
     justify-content: center;
     align-items: center;
