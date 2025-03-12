@@ -34,13 +34,16 @@ label {
     font-weight: bold;
 }
 
-input, textarea {
+input, textarea, button {
     background: black;
     border: 2pt solid #fbe122;
     color: white;
     padding: 10pt;
     font-size: 1rem;
     margin-top: 5pt;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    padding: 12px;
 }
 
 button {
