@@ -147,15 +147,6 @@ a {
     }
 }
 
-footer {
-    width: 100%;
-    text-align: center;
-    color: #aaa;
-    padding: 10px 0;
-    position: absolute;
-    bottom: 0;
-}
-
 .saturn-orbit {
     width: 100%;
     height: 100%;
