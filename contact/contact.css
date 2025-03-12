@@ -59,3 +59,25 @@ button {
 button:hover {
     background: #ffd700;
 }
+
+.sun {
+    width: 7rem;
+    height: 7rem;
+    background: radial-gradient(circle, #ffcc00, #ff6600);
+    position: absolute;
+    top: 2rem;
+    right: 85vw;
+    border-radius: 50%;
+    box-shadow: 0 0 3rem rgba(255, 204, 0, 0.8);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    display: flex;
+}
+
+.arrow-icon {
+    width: 3.5rem;
+    height: 3.5rem;
+    stroke: black;
+}
