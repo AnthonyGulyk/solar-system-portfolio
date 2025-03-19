@@ -70,6 +70,11 @@ p {
     color: black;
 }
 
+img {
+    width: 25rem;
+    height: auto;
+}
+
 .sun {
     width: 7rem;
     height: 7rem;
